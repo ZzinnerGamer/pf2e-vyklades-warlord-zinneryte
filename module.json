@@ -1,0 +1,34 @@
+{
+  "id": "pf2e-vyklades-warlord-zinneryte",
+  "title": "PF2e Vyklade's Warlord (by Zinneryte)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "flags": {
+    "pf2e-vyklades-warlord-zinneryte": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "wind-up": {
+            "label": "Command",
+            "description": "Actions with the Command trait are special actions which allow the Warlord to instruct their allies. All actions with the Command trait have the Auditory, Linguistic and Visual traits. An ally can only ever be under the effect of one command at any given time, losing the previous Command's effect when a new one is given to them."
+          }
+      }
+    }
+  }
+  },
+  "packs": [
+    {
+      "name": "pf2e-warlord",
+      "label": "PF2E Vyklade's Warlord",
+      "path": "packs/pf2e-warlord",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
